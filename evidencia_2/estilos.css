@@ -1,0 +1,26 @@
+/*Reto 1*/
+section h2{
+    font-size: 40px;
+}
+aside h3{
+    font-size: 40px;
+}
+/*Reto 2*/
+.contenedor a{
+    color: firebrick;
+  text-decoration: none;
+
+}
+/*Reto 3*/
+footer a{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Reto 4*/
+section .titulo + p{
+    color: gold;
+}
+/*Reto 5*/
+aside > p{
+    color: indigo;
+}

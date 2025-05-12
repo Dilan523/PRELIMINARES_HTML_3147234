@@ -1,0 +1,58 @@
+/*Selectores descendientes*/
+.mainTitle{
+    font-size: 20px;
+    font-weight: bold
+}
+#globalNav .mainTitle{
+    color: aquamarine;
+    font-size: 40px;
+}
+.contenedor .mainTitle{
+    color: red;
+}
+footer .mainTitle{
+    color: green;
+}
+/*Selectores hijos*/
+footer > p{
+    background-color: lightpink;
+}
+/*cambiar color del developer*/
+footer > p > span{
+    color: yellowgreen;
+}
+/*Selectores de hermandos subsiguientes*/
+footer h2 ~ p{
+    color: blue;
+    text-decoration: underline;
+}
+/*Selectores hermanos adyacentes*/
+.developer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+footer .developer + p{
+    background-color: lightskyblue;
+}
+form button{
+    background-color: blue;
+    color: white;
+}
+/*Selectores de atributo simple*/
+input[type]{
+    border-bottom: blueviolet 2px dotted;
+    border-top: 4px solid red;
+}
+/*Selectores de atributo con valor*/
+input[type = "password"]{
+    border-left: crimson 2px dashed;
+    border-right: violet 2px dashed;
+}
+/*selectores de atributo con valor al final*/
+/*enlaces coj dominios org*/
+a[href$= "org"]{
+    color: peru;
+}
+a[href^= "aprendices"]{
+    color: pink;
+}
