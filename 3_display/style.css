@@ -1,0 +1,40 @@
+.contenedor1{
+    /*utiliza por defecto todo el ancho de la poantalla
+    -se le pueden pner propiedades como: ancho, alto, padding, margin 
+    -el siguiente elemento se mostrara en la siguiente linea
+    -por defecto lo usaan: h, p, div, section*/
+    display: block;
+    background-color: violet;
+    height: 150px;
+}
+.contenedor2{
+    display: block;
+    background-color: tomato;
+    width: 500px;
+    height: 150px;
+}
+.contenedor3{
+    /*-no se le puede aplicar propiedades de ancho, alto, padding, margin
+    -el siguiente elemento se mostrara en la misma linea, con un espacio
+    -lo usan:span, a, img*/
+    display: inline;
+    background-color: lightblue;
+}
+.contenedor4{
+    display: inline;
+    background-color: lightseagreen;
+}
+.contenedor5{
+    /*-los elementos siguientes se muestran en la misma linea
+    -se le pueden aplicar propiedades de ancho, alto, padding, argin*/
+    display: inline-block;
+    background: lawngreen;
+    width: 200px;
+    height: 150px;
+}
+.contenedor6{
+    display: inline-block;
+    background: grey;
+    width: 200px;
+    height: 150px;
+}
